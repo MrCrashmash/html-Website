@@ -1,0 +1,55 @@
+.title2{
+      background-color: rgba(167, 64, 0, 0.9);
+      font-size: 40px;
+      width: 500px;
+      height: 120px;
+      padding: 2.5rem 1.5rem;
+    }
+
+.cooperation-main-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 2;
+    margin-bottom: 20px;
+  }
+.cooperation-text {
+    margin-left: 90px;
+    border-radius: 60px;
+    align-items: center;
+    text-shadow: 2px 2px 4px #000000;
+    text-align: center;
+    font-weight: 500;
+    font-size: 26px;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(167, 64, 0, 0.9);
+    padding: 2rem 2.5rem;
+  }
+.logo{
+    background-color: rgba(167, 64, 0, 0.9);
+    width: 500px;
+    height: 500px;
+    border-radius: 60px;
+    align-items: center;
+    
+    
+}
+  .logo img{
+    border-radius: 60px;
+    opacity: 0.9;
+    display: block;
+   padding: 100px 30px;
+    
+  }
+
+@media (max-width: 900px) {
+    .cooperation-main-section {
+      flex-direction: column;
+      justify-content: center;
+    }
+    .cooperation-text{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
